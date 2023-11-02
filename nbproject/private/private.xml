@@ -3,18 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/ConnectionErrorException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/DataTransferObjects/MessageEnum.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/TimeOutException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/InvalidDirectionException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/InvalidCodeException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/InvalidPhoneNumberException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/MaxConnectionException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/DataTransferObjects/Model.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/InvalidPasswordException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/UserExistException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/exceptions/InvalidEmailValueException.java</file>
-            <file>file:/C:/Users/2dam/Documents/NetBeansProjects/RetoSignInSignUpLibrary/src/DataTransferObjects/User.java</file>
+            <file>file:/C:/Users/bayro/Desktop/RetoSignInSignUpLibrary/src/exceptions/CommonException.java</file>
+            <file>file:/C:/Users/bayro/Desktop/RetoSignInSignUpLibrary/src/DataTransferObjects/Package.java</file>
         </group>
     </open-files>
 </project-private>
