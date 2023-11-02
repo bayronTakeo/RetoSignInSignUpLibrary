@@ -10,11 +10,5 @@ package DataTransferObjects;
  * @author Bayron
  */
 public enum MessageEnum {
-    RE_SIGNIN,
-    RE_SIGNUP,
-    AN_OK,
-    AN_INVALIDUSER,
-    AN_USEREXIST,
-    AN_CONNECTIONERROR,
-    AN_MAXCONNECTION
+    
 }
