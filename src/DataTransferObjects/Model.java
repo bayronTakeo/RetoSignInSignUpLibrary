@@ -6,6 +6,7 @@
 package DataTransferObjects;
 
 import exceptions.ConnectionErrorException;
+import exceptions.InvalidUserException;
 import exceptions.MaxConnectionException;
 import exceptions.TimeOutException;
 import exceptions.UserExistException;
@@ -16,7 +17,7 @@ import exceptions.UserExistException;
  */
 public interface Model {
 
-    public User doSignIn(User user) throws ConnectionErrorException, TimeOutException, MaxConnectionException;
+    public User doSignIn(User user) throws InvalidUserException, ConnectionErrorException, TimeOutException, MaxConnectionException;
 
     public void doSignUp(User user) throws UserExistException, ConnectionErrorException, TimeOutException, MaxConnectionException;
 }
