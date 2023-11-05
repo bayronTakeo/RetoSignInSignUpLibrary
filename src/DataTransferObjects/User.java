@@ -11,28 +11,27 @@ import java.io.Serializable;
  *
  * @author Bayron
  */
-public class User implements Serializable{
-    
+public class User implements Serializable {
+
     private String email;
     private String name;
     private String direction;
-    private int codePostal; 
-    private int phoneNumber; 
+    private int codePostal;
+    private int phoneNumber;
     private String password;
-    private String confirmPassword;
 
-     public User() {
+    public User() {
     }
 
-    public User(String email, String name, String direction, int codePostal, int phoneNumber, String password, String confirmPassword) {
+    public User(String email, String name, String direction, int codePostal, int phoneNumber, String password) {
         this.email = email;
         this.name = name;
         this.direction = direction;
         this.codePostal = codePostal;
         this.phoneNumber = phoneNumber;
         this.password = password;
-        this.confirmPassword = confirmPassword;
     }
+
     public String getEmail() {
         return email;
     }
@@ -65,10 +64,6 @@ public class User implements Serializable{
         this.password = password;
     }
 
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
-    }
-
     public String getDirection() {
         return direction;
     }
@@ -83,9 +78,5 @@ public class User implements Serializable{
 
     public String getPassword() {
         return password;
-    }
-
-    public String getConfirmPassword() {
-        return confirmPassword;
     }
 }

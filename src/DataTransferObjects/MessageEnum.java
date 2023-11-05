@@ -5,6 +5,8 @@
  */
 package DataTransferObjects;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Bayron
