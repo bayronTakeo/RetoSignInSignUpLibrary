@@ -6,14 +6,17 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando se agota el tiempo de espera.
  *
  * @author Bayron
  */
-public class TimeOutException extends Exception{ 
-    public TimeOutException(){
+public class TimeOutException extends Exception {
+
+    public TimeOutException() {
         super();
     }
-    public TimeOutException(String msg){
+
+    public TimeOutException(String msg) {
         super(msg);
     }
 }

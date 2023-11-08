@@ -6,6 +6,7 @@
 package exceptions;
 
 /**
+ * Excepciones comunes.
  *
  * @author bayro
  */

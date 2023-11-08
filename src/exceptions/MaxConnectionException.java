@@ -6,14 +6,17 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando se alcanza el numero maximo de conexiones.
  *
  * @author Bayron
  */
-public class MaxConnectionException extends Exception{
-    public MaxConnectionException(){
+public class MaxConnectionException extends Exception {
+
+    public MaxConnectionException() {
         super();
     }
-    public MaxConnectionException(String msg){
+
+    public MaxConnectionException(String msg) {
         super(msg);
     }
 }

@@ -8,6 +8,7 @@ package DataTransferObjects;
 import java.io.Serializable;
 
 /**
+ * Enum que envía y recibe el tipo de respuesta del servidor y del cliente.
  *
  * @author Bayron
  */

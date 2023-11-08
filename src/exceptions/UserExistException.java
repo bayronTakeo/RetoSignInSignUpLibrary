@@ -6,14 +6,17 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando ya existe el usuario en la base de datos.
  *
  * @author Bayron
  */
 public class UserExistException extends Exception {
-    public UserExistException(){
+
+    public UserExistException() {
         super();
     }
-    public UserExistException(String msg) { 
+
+    public UserExistException(String msg) {
         super(msg);
     }
 }

@@ -8,6 +8,7 @@ package DataTransferObjects;
 import java.io.Serializable;
 
 /**
+ * Clase que guarda la información sobre un Usuario.
  *
  * @author Bayron
  */

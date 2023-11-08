@@ -6,14 +6,17 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando el telefono es invalido.
  *
  * @author Bayron
  */
-public class InvalidPhoneNumberException extends Exception{
+public class InvalidPhoneNumberException extends Exception {
+
     public InvalidPhoneNumberException() {
         super();
     }
-    public InvalidPhoneNumberException(String msg) { 
+
+    public InvalidPhoneNumberException(String msg) {
         super(msg);
     }
 }
