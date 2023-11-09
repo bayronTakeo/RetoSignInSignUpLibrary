@@ -27,6 +27,8 @@ public class CommonException extends Exception {
                 return "This field cannot contain numbers";
             case "letters":
                 return "This field cannot contain letters";
+            case "data":
+                return "Some data is wrong";
             default:
                 return "Something has gone wrong";
         }
