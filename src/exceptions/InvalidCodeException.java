@@ -6,7 +6,7 @@
 package exceptions;
 
 /**
- *
+ * Excepción que se produce cuando codigo postal es invalido
  * @author Bayron
  */
 public class InvalidCodeException extends Exception{

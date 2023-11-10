@@ -6,15 +6,17 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando el email es invalido.
  *
  * @author Bayron
  */
 public class InvalidEmailValueException extends Exception {
-    public InvalidEmailValueException(){
+
+    public InvalidEmailValueException() {
         super();
     }
-    
-    public InvalidEmailValueException(String msg) { 
+
+    public InvalidEmailValueException(String msg) {
         super(msg);
     }
 }

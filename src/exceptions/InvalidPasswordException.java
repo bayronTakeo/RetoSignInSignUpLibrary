@@ -6,15 +6,17 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando la contraseña es invalida.
  *
  * @author Bayron
  */
-public class InvalidPasswordException extends Exception{
-    public InvalidPasswordException() { 
+public class InvalidPasswordException extends Exception {
+
+    public InvalidPasswordException() {
         super();
     }
-    
-    public InvalidPasswordException(String msg) { 
+
+    public InvalidPasswordException(String msg) {
         super(msg);
     }
 }

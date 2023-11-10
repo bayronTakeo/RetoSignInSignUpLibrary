@@ -6,14 +6,17 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando la direccion es invalida.
  *
  * @author Bayron
  */
 public class InvalidDirectionException extends Exception {
-    public InvalidDirectionException() { 
+
+    public InvalidDirectionException() {
         super();
     }
-    public InvalidDirectionException(String msg) { 
+
+    public InvalidDirectionException(String msg) {
         super(msg);
     }
 }

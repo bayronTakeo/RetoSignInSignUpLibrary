@@ -8,11 +8,13 @@ package DataTransferObjects;
 import java.io.Serializable;
 
 /**
+ * Clase que contiene el Usuario que se registra o inicia sesión y el
+ * MessageEnum.
  *
  * @author bayro
  */
 public class Package implements Serializable {
-    
+
     private User user;
     private MessageEnum message;
 
@@ -39,11 +41,10 @@ public class Package implements Serializable {
     public void setMessage(MessageEnum message) {
         this.message = message;
     }
-    
+
     public void getDatos(User user, MessageEnum message) {
         this.user = user;
         this.message = message;
     }
-    
-    
+
 }

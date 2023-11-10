@@ -6,15 +6,18 @@
 package exceptions;
 
 /**
+ * Excepción que se produce cuando el lado del servidor no puede conectarse a la
+ * base de datos
  *
  * @author Bayron
  */
 public class ConnectionErrorException extends Exception {
-    public ConnectionErrorException() { 
+
+    public ConnectionErrorException() {
         super();
     }
-    
-    public ConnectionErrorException(String msg) { 
+
+    public ConnectionErrorException(String msg) {
         super(msg);
     }
 }

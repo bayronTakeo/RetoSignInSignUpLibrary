@@ -12,6 +12,8 @@ import exceptions.TimeOutException;
 import exceptions.UserExistException;
 
 /**
+ * Interfaz del modelo. Especifica el comportamiento de las implementaciones del
+ * modelo
  *
  * @author Bayron
  */
